@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-cicd",
+  "version": "1.0.0",
+  "description": "Node.js CI CD application",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
